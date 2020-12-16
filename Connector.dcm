@@ -419,6 +419,7 @@ D 3 pin connector, PD-30S
 K connector 3-pin PD-30S power DIN
 F http://www.cui.com/product/resource/pd-30.pdf
 $ENDCMP
+#
 $CMP CoaxialSwitch_Testpoint
 D Subminiature Coaxial Switch testpoint
 K  Coaxial Switch RF testpoint
@@ -1297,6 +1298,12 @@ $ENDCMP
 #
 $CMP DIN41612_02x32_ZB
 D DIN41612 connector, double row (ZB), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP DIN41612_03x32_ABC
+D DIN41612 connector, double row (AB), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
